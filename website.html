@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Ray Xu Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      padding: 1.2rem;
+      background-color: #ffe4ec;
+      border-bottom: 1px solid #ffccd9;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #cc3366;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6rem 2rem;
+      gap: 3rem;
+      flex-wrap: wrap;
+      background-color: #fff0f5;
+    }
+
+
+    .text-section {
+      flex: 1 1 500px;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    .text-section h1 {
+      font-size: 3rem;
+      color: #cc3366;
+      margin-bottom: 1rem;
+    }
+
+    .text-section p {
+      font-style: italic;
+      color: rgb(244, 155, 170);
+      margin-bottom: 0.5rem;
+    }
+
+    .headshot {
+      flex: 0 0 250px;
+      padding: 1rem;
+    }
+
+    .headshot img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    section {
+      max-width: 900px;
+      margin-left: 15vw;  /* push slightly right */
+      margin-right: auto;
+      padding: 3rem 0;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #cc3366;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ffccd9;
+      padding-bottom: 0.4rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a.project-link {
+      color: #cc3366;
+      text-decoration: none;
+    }
+
+    a.project-link:hover {
+      text-decoration: underline;
+    }
+
+    .about p {
+      margin-bottom: 1.2rem;
+      color:#cc3366;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About me</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="text-section">
+      <h1>Hi there :D</h1>
+      <p>I create interactive games that blend logic, psychology, and philosophy :)</p>
+      <!-- <p>I also love competitive programming and building things that challenge minds :)</p> -->
+    </div>
+    <div class="headshot">
+      <img src="ray_headshot.jpg" alt="Ray Xu">
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About me</h2>
+    <p>Hi! I'm Ray Xu, a Computer Science major at the University of Washington. I’m passionate about combining technology with human thought—especially through game development and interactive experiences.</p>
+
+    <p>Much of my work focuses on creating web-based games and tools that explore philosophical or psychological themes. I currently help develop games for the UW Philosophy Department to be embedded in textbooks, aiming to make logic and abstract thinking more accessible and engaging for students.</p>
+
+    <p>In my free time, I enjoy participating in programming competitions like those on Codeforces and ICPC-style contests. I find algorithmic problem solving both fun and mentally rewarding—it sharpens my thinking and fuels my creativity when building systems or games.</p>
+
+    <p>Outside of programming, I have a strong interest in visual and interaction design. I like building tools that are not just functional, but also intuitive and delightful to use. My long-term goal is to work on projects that sit at the intersection of computing, learning, and human behavior.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a class="project-link" href="https://iurux.github.io/strands-clone/" target="_blank">🧠 Strands Clone</a></li>
+      <li><a class="project-link" href="https://iurux.github.io/philosophy-connections/" target="_blank">📘 Philosophy Connections Game</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div style="display: flex; align-items: center; gap: 1.5rem; font-size: 1.2rem;">
+        <span style="color: #cc3366;">Contact me:</span>
+        <a href="https://github.com/iurux" target="_blank" style="color: #cc3366;">
+        <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rayxu411" target="_blank" style="color: #cc3366;">
+        <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="mailto:ruixu411@gmail.com" style="color: #cc3366;">
+        <i class="fas fa-envelope fa-2x"></i>
+        </a>
+    </div>
+    </section>
+
+
+</body>
+</html>
